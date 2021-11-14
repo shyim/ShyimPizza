@@ -11,13 +11,15 @@
             <tag name="shopware.entity.definition"/>
         </service>
 
-        <service id="Shyim\Pizza\Checkout\Cart\PizzaLineItemFactory">
-            <tag name="shopware.cart.line_item.factory"/>
-        </service>
+<!--        <service id="Shyim\Pizza\Checkout\Cart\PizzaLineItemFactory">-->
+<!--            <tag name="shopware.cart.line_item.factory"/>-->
+<!--        </service>-->
 
-        <service id="Shyim\Pizza\Checkout\Cart\PizzaProcessor">
-            <tag name="shopware.cart.processor"/>
-            <tag name="shopware.cart.collector"/>
-        </service>
+<!--        <service id="Shyim\Pizza\Checkout\Cart\PizzaProcessor">-->
+<!--            <argument type="service" id="Shopware\Core\Checkout\Cart\Price\AbsolutePriceCalculator"/>-->
+<!--            <argument type="service" id="pizza.repository"/>-->
+<!--            <tag name="shopware.cart.processor"/>-->
+<!--            <tag name="shopware.cart.collector"/>-->
+<!--        </service>-->
     </services>
 </container>
