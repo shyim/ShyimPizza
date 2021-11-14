@@ -1,0 +1,18 @@
+{
+  "name": "shyim/pizza",
+  "description": "Pizza",
+  "type": "shopware-platform-plugin",
+  "license": "MIT",
+  "autoload": {
+    "psr-4": {
+      "Shyim\\Pizza\\": "src/"
+    }
+  },
+  "extra": {
+    "shopware-plugin-class": "Shyim\\Pizza\\ShyimPizza",
+    "label": {
+      "de-DE": "Pizza",
+      "en-GB": "Pizza"
+    }
+  }
+}
